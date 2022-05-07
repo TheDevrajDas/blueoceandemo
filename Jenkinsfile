@@ -33,7 +33,7 @@ pipeline {
 
     stage('Test report') {
       steps {
-        junit '**/target/sure-fire/*.xml'
+        junit '**/target/surefire-reports/*.xml'
       }
     }
 
